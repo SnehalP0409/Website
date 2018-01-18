@@ -1,0 +1,389 @@
+.main-container{
+	background: url("../img/banner.jpg");
+	height: 945px;
+}
+
+.social-icon{
+		height: 150px;
+}
+
+.icon-main{
+	margin: auto;
+    width: 40%;
+}
+
+.icon{
+	
+    display: inline-block;
+	height: 150px;
+	width: 150px;
+		
+}
+.fb-icon{
+		background: url("../img/fb.png") no-repeat;
+	
+}
+
+.google-icon{
+		background: url("../img/google.png") no-repeat;
+}
+
+.twit-icon{
+		background: url("../img/twit.png") no-repeat;
+}
+
+.main-text{
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	
+}
+
+.secondary-text{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+
+ul#menu{
+	margin: auto;
+    width: 50%;
+}
+
+ul li{
+	display: inline;
+	//padding: 10px;
+	font-size: 23px;
+	padding-left: 50px;
+	text-align: center;
+	
+}
+
+
+li a{
+	color: white;
+	text-align: center;
+}
+
+li a:hover{
+	color: white;
+}
+
+
+
+.item{
+		height: 300px;
+		
+}
+
+.carousel-caption{
+	
+	text-decoration: underline;
+	margin-top: 10%;
+	color: white;
+	
+	
+}
+.carousel-caption h1{
+	font-size: 100px;
+}
+
+.gallery-container{
+	height: 1600px;
+	
+}
+
+.gallery-heading p{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.gallery-row-container{
+	width: 80%;
+	margin: auto;
+	
+}
+
+.gal-img, .gallery-images{
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+
+.gallery-images-overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	height: inherit;
+	width: inherit;
+	background-color: rgba(0,0,0,0.4);
+	visibility: hidden;
+	transition: all 2s ease;
+	
+}
+
+.visible{
+	visibility: visible;
+}
+.hidden{
+	visibility: hidden;
+}
+
+.glyphicon{
+	color: white;
+	 font-size: 100px;
+	 padding-top: 100px;
+	 padding-left: 40px;
+	 text-align: center;
+}
+
+.gallery-image1{
+	background: url("../img/japan-2218788_960_720.jpg") no-repeat;
+}
+
+.gallery-image2{
+	background: url("../img/freezing-earth-2376303_960_720.jpg") no-repeat;
+}
+
+.gallery-image3{
+	background: url("../img/model-2453950_960_720.jpg") no-repeat;
+}
+
+.gallery-image4{
+	background: url("../img/giant-eagle-2689367_960_720.jpg") no-repeat;
+}
+
+.gallery-image5{
+	background: url("../img/summer-2404769_960_720.jpg") no-repeat;
+}
+
+
+.gal-button{
+	border: 2px solid black;
+		margin-top: 20px;
+		width: 20%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+
+.gal-button a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	
+}
+
+.gal-button:hover{
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.gal-button a:hover{
+		text-decoration: none;
+		color: white;
+		
+		
+}
+
+.about-us-container{
+	width: 80%;
+	margin: auto;
+	padding-top: 10%;
+}
+
+.about-us-first-heading  h1{
+	font-size: 80px;
+	text-decoration: underline;
+}	
+
+.about-us-first-content p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+.about-us-first-button{
+	border: 2px solid black;
+		margin-top: 20px;
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+.about-us-first-button a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	
+}
+
+.about-us-first-button:hover{
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.about-us-first-button a:hover{
+		text-decoration: none;
+		color: white;
+		
+		
+}
+
+
+.about-us-second-heading h1{
+	font-size: 80px;
+	text-decoration: underline;
+}
+.about-us-second-img{
+	background: url("../img/banner.jpg") no-repeat;
+	height:200px;
+	width: 200px;
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.about-us-second-content p{
+	font-size: 20px;
+	padding-left: 20px;
+	text-align: justify;
+}
+
+.about-us-second-button{
+	border: 2px solid black;
+		margin-top: 20px;
+		width: 25%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.about-us-second-button a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	
+}
+
+.about-us-second-button:hover{
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.about-us-second-button a:hover{
+		text-decoration: none;
+		color: white;
+		
+		
+}
+
+.project-banner-container{
+	height: 500px;
+	background: url("../img/banner1.jpg") no-repeat;
+}
+
+p#project-banner-text1{
+	font-size: 100px;
+	color: white;
+	margin-left: 20%;
+	padding-top: 5%;
+	font-weight: bold;
+}
+
+p#project-banner-text2{
+	font-size: 100px;
+	color: white;
+	margin-left: 35%;
+	font-weight: bold;
+}
+
+.project-banner-button{
+	border: 2px solid white;
+		margin-top: 20px;
+		width: 25%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.project-banner-button a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	
+}
+
+.project-banner-button:hover{
+	background-color: rgba(255,255,255,0.5);
+	
+}
+
+.project-banner-button a:hover{
+		text-decoration: none;
+		color: black;
+		
+		
+}
+
+.testimonial{
+	width: 80%;
+	margin:auto;
+	height: 500px;
+	position: relative;
+}
+
+.second-testimonial-img, .first-testimonial-img{
+		height: 300px;
+}
+
+.first-testimonial-img{
+	background: url("../img/girl.jpg") no-repeat;
+	//position: absolute;
+	margin-top: 5%;
+	height: 200px;
+	
+}
+
+.first-testimonial-content{
+	border: 2px solid black;
+	margin-top: 5%;
+	padding: 6.2%;
+	
+}
+
+
+
+.second-testimonial-img{
+	background: url("../img/boy.jpg") no-repeat;
+	//position: absolute;
+	margin-top: 5%;
+	height: 200px;
+	
+}
+
+.second-testimonial-content {
+	border: 2px solid black;
+	margin-top: 5%;
+	padding: 6.2%;
+
+}
+
+.footer{
+	height: 50px;
+	background-color: gray;
+}
+
+.footer p{
+	text-align: center;
+	font-weight: bold;
+	//padding-top: px;	
+	color: white;
+	margin-top: 50px;
+	padding-top: 20px;
+}

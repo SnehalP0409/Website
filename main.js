@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".gal-img").mouseover(function(){
+		$(this).find(".gallery-images-overlay").removeClass("hidden");
+		$(this).find(".gallery-images-overlay").addClass("visible");
+	});
+	$(".gal-img").mouseleave(function(){
+		$(this).find(".gallery-images-overlay").removeClass("visible");
+		$(this).find(".gallery-images-overlay").addClass("hidden");
+	});
+});
